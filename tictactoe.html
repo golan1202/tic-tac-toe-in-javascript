@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="Tic Tac Toe game expanded edition">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="tictactoe.css">
+</head>
+
+<body>
+    <div class="game">
+        <div class="game-title">Tic Tac Toe</div>
+        <div class="player">
+            Player 1
+            <div style="font-size:30pt;" id="player1" class="selected">
+                0
+            </div>
+        </div>
+        <table id="game" class="tictactoe" style="float:left;width:45%;">
+        </table>
+        <div class="player">
+            Player 2
+            <div id="player2" style="font-size:30pt;">0</div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div class="details">
+        <div class="status">Status: <span id="status">Let's begin</span></div>
+        <div class="line"></div>
+        <div class="board-size">
+            <label for="board-size">Board-Size:</label>
+            <input type="number" id="board-size" name="board-size" value="3" min="3" max="10">
+            <input type="button" id="start" value="start"></input>
+        </div>
+        <div class="line"></div>
+        <div class="reset"><button id="reset">reset</button></div>
+        <div class="line"></div>
+    </div>
+
+    <script src="tictactoe.js" async defer></script>
+</body>
+
+</html>

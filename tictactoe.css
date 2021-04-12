@@ -1,0 +1,125 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+.game td
+{
+    width:100px;
+    height:100px;
+    border: solid 5px black;
+    text-align:center;
+    font-size:40pt;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+.game td:hover
+{
+    background-color: #fff;
+    cursor:pointer;
+}
+
+.game
+{
+    background:#efefef;
+    border:solid 10px #333;
+}
+
+.game .game-title 
+{
+    background:#222;
+    color:#fff;
+    padding: 10px;
+    text-align:center;
+}
+
+.game .player 
+{
+    float:left;
+    text-align:center;
+    width: 25%;
+    font-weight: bold;
+}
+
+.game .player .selected
+{
+    border-bottom:solid 4px #020d4e;
+}
+
+#player1 {
+    color : blue;
+}
+
+#player2 {
+    color: red;
+}
+
+.details
+{   display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align:center;
+    font-size:20pt;
+    background-color: lightskyblue;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.status {
+    margin-top:10px;
+}
+
+#board-size{
+    text-align:center;
+    background:#efefef;
+    border:solid 2px #333;
+    margin-top:10px;
+    padding:3px;
+}
+
+input {
+    width:40px;
+    height:20px;
+    font-weight: bold;
+    border-radius:5px;
+}
+
+#start {
+    width:60px;
+    height:30px;
+    border:solid 2px #333;
+    font-weight: bold;
+    background-color: lightsteelblue;
+}
+
+#start:hover {
+    background-color: steelblue;
+    cursor:pointer;
+}
+
+#reset {
+    width:60px;
+    height:30px;
+    border:solid 2px #333;
+    font-weight: bold;
+    margin-top:15px;
+    padding:5px;
+    border-radius:5px;
+    box-sizing:border-box;
+    background-color: lightgoldenrodyellow;
+}
+
+#reset:hover {
+    background-color: gold;
+    cursor:pointer;
+}
+
+.line { 
+    border-bottom: 1px solid rgba(148, 144, 144, 0.45);
+}
+
+.clear
+{
+    clear:both;
+}
